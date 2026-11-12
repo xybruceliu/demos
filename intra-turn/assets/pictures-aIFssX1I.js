@@ -1,0 +1,1 @@
+var e=e=>{let t=/^data:(image\/[\w.+-]+);base64,(.+)$/.exec(e);return t?{type:`image`,source:{type:`base64`,media_type:t[1],data:t[2]}}:null},t=(t,n=[])=>{let r=n.map(e).filter(e=>!!e);return r.length?[...r,{type:`text`,text:t}]:t},n=(e,t=0)=>t?`${e}\n\n[${t} picture${t>1?`s`:``} attached]`:e;export{t as n,n as t};
